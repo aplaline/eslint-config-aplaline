@@ -1,10 +1,14 @@
 {
   "name": "eslint-config-aplaline",
-  "version": "1.5.1",
-  "description": "",
+  "version": "1.5.2",
+  "description": "Common Aplaline's configuration for ESLint",
   "main": "index.js",
-  "author": "",
-  "license": "ISC",
+  "author": "Matthias Hryniszak",
+  "license": "MIT",
+  "repository" : {
+    "type" : "git",
+    "url" : "github:aplaline/eslint-config-aplaline"
+  },
   "keywords": [
     "aplaline",
     "eslint",
