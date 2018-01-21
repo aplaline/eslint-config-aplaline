@@ -5,6 +5,11 @@
   "main": "index.js",
   "author": "",
   "license": "ISC",
+  "keywords": [
+    "aplaline",
+    "eslint",
+    "eslintconfig",
+  ],
   "peerDependencies": {
     "eslint": ">= 4"
   },
