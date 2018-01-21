@@ -12,6 +12,10 @@ module.exports = {
     'plugin:vue/recommended'
   ],
 
+  'plugins': [
+    'eslint-plugin-babel'
+  ],
+
   rules: {
     'arrow-body-style': [ 'error', 'as-needed' ],
     'array-bracket-spacing': [ 'error', 'always' ],
@@ -25,6 +29,7 @@ module.exports = {
     'brace-style': [ 'error', '1tbs', { 'allowSingleLine': true } ],
 
     'camelcase': [ 'error', { 'properties': 'always' } ],
+    'babel/semi': [ 'error', 'never' ],
     'comma-dangle': [ 'error', 'always-multiline' ],
     'comma-spacing': [ 'error', { 'before': false, 'after': true } ],
     'computed-property-spacing': [ 'error', 'never' ],
