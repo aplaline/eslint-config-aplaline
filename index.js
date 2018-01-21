@@ -25,11 +25,11 @@ module.exports = {
       'after': true,
     } ],
 
+    'babel/semi': [ 'error', 'never' ],
     'block-spacing': 'error',
     'brace-style': [ 'error', '1tbs', { 'allowSingleLine': true } ],
 
     'camelcase': [ 'error', { 'properties': 'always' } ],
-    'babel/semi': [ 'error', 'never' ],
     'comma-dangle': [ 'error', 'always-multiline' ],
     'comma-spacing': [ 'error', { 'before': false, 'after': true } ],
     'computed-property-spacing': [ 'error', 'never' ],
