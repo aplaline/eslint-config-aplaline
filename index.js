@@ -7,7 +7,10 @@ module.exports = {
     'sourceType': 'module'
   },
 
-  extends: [ 'eslint:recommended', 'plugin:vue/recommended' ],
+  extends: [
+    'eslint:recommended',
+    'plugin:vue/recommended'
+  ],
 
   rules: {
     'arrow-body-style': [ 'error', 'as-needed' ],
@@ -29,8 +32,10 @@ module.exports = {
 
     'dot-location': [ 'error', 'property' ],
 
+    'eol-last': [ 'error', 'always' ],
     'eqeqeq': 'error',
 
+    'func-call-spacing': [ 'error', 'never' ],
     'func-name-matching': 'error',
     'func-names': [ 'error', 'never' ],
 
@@ -51,6 +56,7 @@ module.exports = {
     'no-multi-spaces': 'error',
     'no-multiple-empty-lines': [ 'error', { 'max': 1 } ],
     'no-return-assign': [ 'error', 'always' ],
+    'no-trailing-spaces': 'error',
     'no-useless-constructor': 'error',
     'no-useless-rename': 'error',
     'no-var': 'error',
