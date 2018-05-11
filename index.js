@@ -97,6 +97,7 @@ module.exports = {
       singleline: 5,
       multiline: { max: 5, 'allowFirstLine': true },
     } ],
+    'vue/attributes-order': [ 'none' ],
   },
 
   env: {
